@@ -67,9 +67,7 @@ const sessionOptions = {
     }
 };
 
-app.get("/",(req,res)=>{
-    res.render("/listings");
-});
+
 
 
 
@@ -93,7 +91,9 @@ app.use((req,res,next)=>{
 });
 
 
-
+app.get("/",(req,res)=>{
+    res.render("/listings");
+});
 
 //configuring all routes of listing and reviews
 app.use("/listings",listingRouter)
