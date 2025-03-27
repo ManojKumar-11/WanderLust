@@ -92,7 +92,7 @@ app.use((req,res,next)=>{
 
 
 app.get("/",(req,res)=>{
-    res.render("/listings");
+    res.redirect("/listings");
 });
 
 //configuring all routes of listing and reviews
