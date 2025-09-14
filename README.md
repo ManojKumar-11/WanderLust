@@ -18,3 +18,4 @@ Built as a learning project to explore Node.js, Express, MongoDB, Passport.js, a
 
 🌐 Live Demo: [Try Wanderlust here](https://wanderlust-pglq.onrender.com)
 
+> ⚠️ Note: The site is hosted on a free Render plan, so it may take a few seconds to “wake up” if it hasn’t been accessed recently.
